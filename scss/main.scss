@@ -8,10 +8,15 @@
 @import "./responsive";
 
 //place styling that will persist throughout pages here (others placed in partials)
+html{
+  overflow-x: hidden;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif; //300 400 700
   width: 100%;
   overflow-x: hidden;
+  position: relative;
 }
 
 .section-start{
