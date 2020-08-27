@@ -1,0 +1,29 @@
+.projects-box{
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 1%;
+  h1{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .project-container{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    // padding-top: 2em;
+    .project-item{
+      width: 33vw;
+      .project-desc{
+        font-size: 1.25em;
+      }
+      .project-pic{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // margin-bottom: 2em;
+      }
+    }
+  }
+}

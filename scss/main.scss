@@ -1,0 +1,29 @@
+@import "./config";
+@import "./header";
+@import "./infobox";
+@import "./projects";
+@import "./contact";
+@import "./footer";
+@import "./about";
+@import "./responsive";
+
+//place styling that will persist throughout pages here (others placed in partials)
+body{
+  font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif; //300 400 700
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.section-start{
+  width: 25vw;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 5px solid $blue;
+  margin-bottom: 1em;
+}
+
+.section-title{
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: 500;
+}

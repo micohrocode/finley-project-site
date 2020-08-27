@@ -1,0 +1,35 @@
+//set color variables
+$white: #e4e3e3;
+$light-blue: #84a9ac;
+$blue:#3b6978;
+$dark-blue:#204051;
+
+//standard resets
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//include functions and mixins below this comment
+@mixin transition-ease{
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin media-sm{
+  @media screen and (max-width:768px){
+    @content;
+  }
+}
+
+@mixin media-md{
+  @media screen and (max-width:1024px){
+    @content;
+  }
+}
+
+@mixin media-lg{
+  @media screen and (max-width:1600px){
+    @content;
+  }
+}

@@ -1,0 +1,52 @@
+@include media-sm{
+  .intro-box{
+    .intro-info{
+      width: 80vw;
+    }
+    .info-picture{
+      img{
+        width:70%;
+      }
+    }
+  }
+
+  .projects-box{
+    .project-container{
+      grid-template-columns: 1fr;
+      justify-items: center;
+      .project-item{
+        width:80vw;
+        margin-bottom:1%;
+      }
+    }
+  }
+
+  .contact-box{
+    .contact-container{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .about-img{
+    img{
+      max-width: 80%;
+    }
+  }
+}
+
+@include media-md{
+  .contact-box{
+    .contact-container{
+      width: 75%;
+    }
+  }
+
+  .about-img{
+    img{
+      max-width: 40%;
+    }
+  }
+}
+
+@include media-lg{
+}
