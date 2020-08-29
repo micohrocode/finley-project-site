@@ -11,6 +11,10 @@
     li{
       display: inline;
       padding: 1em;
+      i{
+        color: white;
+        font-size: 1.25em;
+      }
       a{
         color: $white;
       }
