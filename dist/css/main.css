@@ -201,13 +201,33 @@
 }
 
 .about-text {
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .about-text p {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+  text-indent: 1em;
+  padding-top: .5em;
+}
+
+.about-text button {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.resume a {
+  background-color: #84a9ac;
+  padding: 1em;
+  border-radius: 25px;
+  color: #e4e3e3;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
